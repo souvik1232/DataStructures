@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="javapractise.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-02T05:10:05" hostname="MSI" time="0.001">
+<testsuite name="javapractise.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-02T05:21:06" hostname="MSI" time="0.003">
   <properties/>
-  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedListTest" classname="javapractise.MyLinkedListTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="given3NumbersWhenPoppedShouldRemoveTheFirstNode" classname="javapractise.MyLinkedListTest" time="0.003"/>
+  <system-out><![CDATA[My Nodes: 30->70
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
