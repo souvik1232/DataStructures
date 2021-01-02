@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MyNodeTest {
-    @Test//uc
+    @Test//UC1
     public void given3NumbersWhenLinkedShouldPassedLikedListTest() {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
