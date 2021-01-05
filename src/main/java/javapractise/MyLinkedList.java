@@ -1,5 +1,7 @@
 package javapractise;
 
+import java.awt.font.TextMeasurer;
+
 public class MyLinkedList<K> {
     public INode head;
     public INode tail;
@@ -50,13 +52,15 @@ public class MyLinkedList<K> {
         tempNode = tempNode.getNext();
         return tempNode;
     }
-    public INode search(INode newNode){
-        int count = 0;
+    public INode search(K key){
         INode tempNode = this.head;
-        while (!tempNode.getNext().equals(newNode)) {
+        while (tempNode != null && tempNode.getNext() != null) {
+            if (tempNode.getKey().equals(key)) {
+                return tempNode;
+            }
             tempNode = tempNode.getNext();
         }
-        return tempNode.getNext();
+        return null;
     }
     public INode delete(INode myNode, INode deleteNode) {
         INode tempNode = deleteNode.getNext();
@@ -82,5 +86,10 @@ public class MyLinkedList<K> {
         }
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);
+    }
+
+    @Override
+    public String toString() {
+        return "MyLinkedListNodes{" + head + '}';
     }
 }

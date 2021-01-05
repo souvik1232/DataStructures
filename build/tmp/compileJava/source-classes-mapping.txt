@@ -2,5 +2,9 @@ javapractise/MyNode.java
  javapractise.MyNode
 javapractise/INode.java
  javapractise.INode
+javapractise/MyMapNode.java
+ javapractise.MyMapNode
 javapractise/MyLinkedList.java
  javapractise.MyLinkedList
+javapractise/MyHashMap.java
+ javapractise.MyHashMap
