@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="javapractise.MyLinkedHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T05:04:46" hostname="MSI" time="0.02">
+  <properties/>
+  <testcase name="givenSentenceWhenWordsAreAddedToListShouldReturnParanoidFrequency" classname="javapractise.MyLinkedHashMapTest" time="0.02"/>
+  <system-out><![CDATA[MyLinkedHashMap List{[MyLinkedListNodes{MyMapNodes{K=themselves V=1}}, MyLinkedListNodes{MyMapNodes{K=but V=1}->MyMapNodes{K=keep V=1}}, MyLinkedListNodes{MyMapNodes{K=are V=2}->MyMapNodes{K=they V=1}->MyMapNodes{K=they V=1}->MyMapNodes{K=into V=1}}, null, null, MyLinkedListNodes{MyMapNodes{K=paranoids V=1}->MyMapNodes{K=putting V=1}}, MyLinkedListNodes{MyMapNodes{K=deliberately V=1}}, MyLinkedListNodes{MyMapNodes{K=not V=1}->MyMapNodes{K=avoidable V=1}}, MyLinkedListNodes{MyMapNodes{K=paranoid V=3}->MyMapNodes{K=because V=1}->MyMapNodes{K=because V=1}}, MyLinkedListNodes{MyMapNodes{K=situations V=1}}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

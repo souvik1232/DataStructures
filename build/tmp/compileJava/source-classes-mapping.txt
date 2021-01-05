@@ -8,3 +8,5 @@ javapractise/MyLinkedList.java
  javapractise.MyLinkedList
 javapractise/MyHashMap.java
  javapractise.MyHashMap
+javapractise/MyLinkedHashMap.java
+ javapractise.MyLinkedHashMap

@@ -1,5 +1,7 @@
 javapractise/MyNodeTest.java
  javapractise.MyNodeTest
+javapractise/MyLinkedHashMapTest.java
+ javapractise.MyLinkedHashMapTest
 javapractise/MyLinkedListTest.java
  javapractise.MyLinkedListTest
 javapractise/MyHashMapTest.java
