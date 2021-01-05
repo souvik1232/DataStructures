@@ -127,7 +127,7 @@ public class MyLinkedListTest {
         myLinkedList.append(mySecondNode);
         myLinkedList.append(myThirdNode);
         myLinkedList.append(myFourthNode);
-        myLinkedList.delete(mySecondNode,myThirdNode);
+        myLinkedList.delete(40);
         myLinkedList.printMyNodes();
         myLinkedList.size();
     }

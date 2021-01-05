@@ -46,10 +46,22 @@ public class MyLinkedHashMap<K, V> {
             myMapNode.setValue(value);
         }
     }
+    
+    public K delete(K key) {
+        int index = this.getBucketIndex(key);
+        MyLinkedList<K> myLinkedList = this.myBucketArray.get(index);
+        if (myLinkedList == null) {
+            return null;
+        }
+        MyMapNode<K,V> myMapNode = (MyMapNode<K, V>) myLinkedList.delete(key);
+        return (myMapNode == null) ? null : myMapNode.getKey();
+    }
 
     @Override
     public String toString() {
         return "MyLinkedHashMap List{" + myBucketArray +'}' ; }
+
+
 }
 
 
